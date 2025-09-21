@@ -54,5 +54,11 @@ lenovo@lenovo-IdeaPad-3-15IML05-U:~/HANDSONLIST_2$ gcc q26.c
 lenovo@lenovo-IdeaPad-3-15IML05-U:~/HANDSONLIST_2$ ./a.out
 Enter a message to send: hellooo how are you?
 Message sent successfully!
+
+lenovo@lenovo-IdeaPad-3-15IML05-U:~/HANDSONLIST_2$ ipcs -q
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+0x410644fb 0          lenovo     666        100          1   
 ============================================================================
 */
