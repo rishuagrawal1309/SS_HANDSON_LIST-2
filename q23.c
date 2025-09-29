@@ -19,7 +19,7 @@ int main() {
     if (max_files == -1) {
         perror("sysconf(_SC_OPEN_MAX)");
     } else {
-        printf("Maximum number of files a process can open: %ld\n", max_files);
+        printf("Maximum no. of file open: %ld\n", max_files);
     }
 
     int pipefd[2];
@@ -32,7 +32,7 @@ int main() {
     if (pipe_size == -1) {
         perror("fpathconf(_PC_PIPE_BUF)");
     } else {
-        printf("Size of pipe (circular buffer): %ld bytes\n", pipe_size);
+        printf("Size of pipe: %ld bytes\n", pipe_size);
     }
 
     close(pipefd[0]);
