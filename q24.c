@@ -27,15 +27,15 @@ int main() {
         exit(1);
     }
 
-    printf("Message Queue Key: %d\n", key);
-    printf("Message Queue ID: %d\n", msgid);
+    printf(" Key: %d\n", key);
+    printf("Queue ID: %d\n", msgid);
 
     return 0;
 }
 
 /*
 ============================================================================
-Message Queue Key: 1090929915
-Message Queue ID: 0
+Key: 1090929915
+Queue ID: 0
 ============================================================================
 */

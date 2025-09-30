@@ -24,15 +24,8 @@ int main() {
     struct my_msg message;
 
     key = ftok("msgqueuefile", 65); 
-    if (key == -1) {
-        perror("ftok");
-        exit(1);
-    }
     msgid = msgget(key, IPC_CREAT | 0666);
-    if (msgid == -1) {
-        perror("msgget");
-        exit(1);
-    }
+    
     message.msg_type = 1; 
     printf("Enter a message to send: ");
     fgets(message.msg_text, MAX_TEXT, stdin);
