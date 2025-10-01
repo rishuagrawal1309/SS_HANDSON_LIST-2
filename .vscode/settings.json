@@ -1,6 +1,7 @@
 {
     "terminal.integrated.focusAfterRun": "terminal",
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c"
     }
 }
