@@ -38,6 +38,9 @@ int main() {
 
 /*
 ============================================================================
-
+Process 12942 entering critical section...
+Process 12942 is working...
+Process 12942 leaving critical section...
+Semaphore removed.
 ============================================================================
 */
